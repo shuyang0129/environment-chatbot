@@ -1,5 +1,6 @@
 'use strict'
 
+const request = require('request')
 const dotenv = require('dotenv')
 dotenv.config({ path: __dirname + '/.env' })
 
